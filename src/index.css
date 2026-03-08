@@ -11,3 +11,12 @@
   align-items: center;
   justify-content: center;
 }
+
+.links{
+    border: 2px solid transparent;
+  border-radius: 5px;
+}
+.activeTab{
+  border: 2px solid red;
+  border-radius: 5px;
+}
