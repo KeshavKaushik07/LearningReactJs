@@ -5,7 +5,7 @@ import ThemeContextProvider from './ThemeContextProvider';
 
 const UseContaxt = () => {
   return (
-    <ThemeContextProvider>
+    <ThemeContextProvider>{/* it's a function that take ChildA is children prop  */}
         <ChildA/>
     </ThemeContextProvider>
   )
