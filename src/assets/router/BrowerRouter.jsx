@@ -24,7 +24,7 @@
 
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Home, About, Contact } from "./MultiComponents";
+import { Home, About, Contact , Success } from "./MultiComponents";
 import NavBar from './NavBar';
 import Student from './Student';
 
@@ -56,6 +56,13 @@ const BrowerRouter = () => {
       element : <div>
         <NavBar/>
         <Student/>
+      </div>
+    },
+    {
+      path : "/success",
+      element : <div>
+        <NavBar/>
+        <Success/>
       </div>
     },
   ])
