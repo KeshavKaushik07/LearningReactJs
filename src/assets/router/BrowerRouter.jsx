@@ -26,6 +26,7 @@ import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Home, About, Contact } from "./MultiComponents";
 import NavBar from './NavBar';
+import Student from './Student';
 
 const BrowerRouter = () => {
   const router = createBrowserRouter([
@@ -48,6 +49,13 @@ const BrowerRouter = () => {
       element : <div>
         <NavBar/>
         <Contact/>
+      </div>
+    },
+    {
+      path : "/student/:id",
+      element : <div>
+        <NavBar/>
+        <Student/>
       </div>
     },
   ])
