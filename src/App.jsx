@@ -3,14 +3,16 @@ import React from 'react'
 // import CallBackAndRef from './assets/useCallBac_useRef/CallBackAndRef'
 import UseContaxt from './assets/contaxtAPI/useContaxt'
 import  BrowerRouter  from './assets/router/BrowerRouter'
+import Counter from './assets/coustom_hook/Counter'
 
 const App = () => {
   return (
     <>
     {/* <StateAndEffect/> */}
     {/* <CallBackAndRef /> */}
-     <UseContaxt/>
+     {/* <UseContaxt/> */}
      {/* <BrowerRouter/> */}
+     <Counter/>
     </>
   )
 }
