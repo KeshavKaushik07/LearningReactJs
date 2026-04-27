@@ -23,6 +23,6 @@ const ThemeContextProvider = ({ children }) => {
 
 export default ThemeContextProvider;
 
-export const getContext = () => useContext(ThemeContext);// Just to save using  useContext(ThemeContext) in every child component  --- LIKE A COUSTOM HOOK ---
+export const getContext = () => useContext(ThemeContext);// Just to save using  useContext(ThemeContext) in every child component  --- COUSTOM HOOK ---
 
-export { ThemeContext } // MUST export themeContext
+// export { ThemeContext } // MUST export themeContext
