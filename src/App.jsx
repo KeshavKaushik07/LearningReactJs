@@ -5,16 +5,18 @@ import UseContaxt from './assets/contaxtAPI/useContaxt'
 import  BrowerRouter  from './assets/router/BrowerRouter'
 import CounterOfCoustom from './assets/coustom_hook/Counter'
 import CounterOfReduer from './assets/useReducer/CounterOfReduer'
+import ReduxMain from './assets/Redux_Tool_Kit/ReduxMain'
 
 const App = () => {
   return (
     <>
     {/* <StateAndEffect/> */}
-    <CallBackAndRef />
+    {/* <CallBackAndRef /> */}
      {/* <UseContaxt/> */}
      {/* <BrowerRouter/> */}
      {/* <CounterOfCoustom/> */}
      {/* <CounterOfReduer/> */}
+     <ReduxMain/>
     </>
   )
 }
